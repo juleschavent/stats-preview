@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <!--Container Global-->
+
+      <section class="container__copy">
+        <!--Contenu Texte-->
+        <h1 class="copy__title">
+          Get <span class="copy__title--highlight">insights</span> that help
+          your business grow.
+        </h1>
+        <h3 class="copy__txt">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </h3>
+
+        <div class="copy__data">
+          <div class="data">
+            <h2 class="data__num">10k+</h2>
+            <h3 class="data__txt">Companies</h3>
+          </div>
+          <div class="data">
+            <h2 class="data__num">314</h2>
+            <h3 class="data__txt">Templates</h3>
+          </div>
+          <div class="data">
+            <h2 class="data__num">12M+</h2>
+            <h3 class="data__txt">Queries</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="container__img">
+        <!--Contenu Image-->
+        <img
+          class="img__desk img--hideMob"
+          src="./images/image-header-desktop.jpg"
+          alt="3 femmes entrain de travailler autour d'une table"
+        />
+        <img
+          class="img__mob img--hideDesk"
+          src="./images/image-header-mobile.jpg"
+          alt="3 femmes entrain de travailler autour d'une table"
+        />
+      </section>
+    </main>
+  </body>
+</html>
